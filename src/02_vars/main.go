@@ -20,6 +20,9 @@ func main() {
 	const isCool = true
 
 	//Using Shorthand
-	fmt.Println(name, age, isCool)
-	fmt.Printf("%T\n", isCool)
+	city := "Jakarta"
+	size := 1.5
+
+	fmt.Println(name, age, isCool, city)
+	fmt.Printf("%T\n", size)
 }
